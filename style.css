@@ -1,0 +1,87 @@
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} 
+
+ .header{
+  
+  display: flex;
+  justify-content: space-between;
+}
+p,h1,h2,h3,h6{
+  text-align: center;
+  color: #0000ff;
+  font-style: italic;
+
+}
+h4{
+  color: #ff0000;
+  font-style:italic;
+}
+.menu{
+  display:flex;
+  justify-content: space-between;
+padding: 20px;
+  font-size: 20px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 200;
+  font-weight: 400;
+ color: white;
+}
+body{
+  background-color:#FFDFF7;
+}
+
+.grid img {
+  border: 2px solid #55ccef;
+  border-radius: -1px;
+}
+
+.origami{
+  border-radius: 10px;
+  background-color: white;
+padding: 20px;
+margin: 20px;
+  width: 310px;
+  font-family: sans-serif;
+  font-size: 80;
+  font-style: italic;
+}
+.origami:hover{
+  transform:scale(1.2) ;
+}
+a:link{
+  color: black;
+  font-style: italic;
+}
+a:visited{
+  color: black;
+  font-style: italic;
+
+}
+.Portfolio h2 {
+ /* background: white;*/
+  background-color: aquamarine;
+  font-style: italic;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+.data h3 {
+  
+  font-style:unset;
+padding-top: 5px;
+padding-bottom: 5px;
+text-align: start;
+color: rebeccapurple;
+
+}
+.data {
+  background-color:rgb(11, 252, 220);
+  padding-bottom: 10px;
+  text-align: left;
+  border: 10px solid seashell;
+
+}
